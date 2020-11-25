@@ -1,0 +1,406 @@
+
+/* Payment Form */
+
+.payment-page-title {
+    font-size:55px;
+    color:#1f601f;
+    position:absolute;
+    top:100px;
+    left:230px;
+    font-weight:bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.brush-as-img {
+    transform: scale(.8);
+    color:#1f601f;
+}
+
+
+.empty-cart {
+    font-size:40px;
+    color:#1f601f;
+    font-style:italic;
+    font-family: 'Times New Roman', Times, serif;
+    position: absolute;
+    top:250px;
+    left: 260px;
+    display:none;
+}
+
+.start-kit {
+    color:#1f601f;
+    text-decoration: underline;
+    font-size:20px;
+    margin-left:20px;
+}
+.start-kit:hover {
+    color:#2c872c;
+}
+.start-kit:active {
+    color:#257425;
+}
+
+.form-title {
+    color:white;
+    font-size:30px;
+    text-align:center;
+    text-decoration:underline;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.section-division {
+    margin-top:60px;
+}
+
+#paymentForm {
+    background:#1f601f;
+    width:86%;
+    height: 100%;
+    padding:50px;
+    margin-left:50%;
+    margin-top:-390px;
+}
+
+.payment-section {
+    margin-left:160px;
+    margin-top:80px;
+}
+
+#addressContainer {
+    margin-top:50px;
+}
+
+.payment-label {
+    color:white;
+    white-space:nowrap;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size:22px;
+}
+
+.payment-input,
+#inputAddress2 {
+    background-color:white !important;
+    width:250px !important;
+    height:43px !important;
+    border-radius:5px;
+    box-shadow: inset 5px 7px 10px #184e18;
+    border:1px solid white;
+    margin-right:80px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:15px;
+    text-indent:10px;
+}
+
+#fullName {
+    width:400px !important;
+}
+
+#cardNumber {
+    text-indent:50px;
+    width:400px !important;
+}
+
+.fa-credit-card {
+    position: absolute;
+    margin-left:-462px;
+    color:#184e18;
+    margin-top:11px;
+}
+
+.card-types {
+    margin-right:10px;
+    margin-left:10px;
+    margin-top:20px;
+    color:#184e18;
+    transform: scale(1.3);
+}
+
+#expirationDate,
+#cvc {
+    width:100px !important;
+}
+
+.help-icon {
+    color:#184e18;
+    margin-left:10px;
+    cursor:pointer;
+}
+
+.cvc-definition {
+    color:white;
+    margin-bottom: -20px;
+    display:none;
+    width:300px;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    white-space: pre-line;
+}
+
+.address-type {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size:18px;
+    color:white;
+    text-decoration:underline;
+    margin-bottom:40px;
+}
+
+#inputAddress,
+#inputAddress2 {
+    width:580px !important;
+}
+
+#inputCity {
+    width:180px !important;
+    margin-right:50px;
+}
+
+.shipping-country-button,
+.billing-country-button {
+    background-color:#004d1a !important;
+    height:43px !important;
+    border-radius:5px;
+    text-indent:10px;
+    box-shadow:  5px 5px 5px #003311;
+    border:1px solid white;
+    width:auto;
+    font-size:18px;
+    color:white;
+    margin-right:50px;
+}
+
+.shipping-country-menu,
+.billing-country-menu {
+    margin-top: 20px;
+    padding:30px;
+    cursor: pointer;
+    background:rgba(255,255,255, .8);
+    display:none;
+    overflow-y:scroll;
+    color:#003311;
+    height:160px;
+    width:220px;
+    font-size:15px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.shipping-country-menu option:hover,
+.billing-country-menu option:hover,
+.shipping-state-menu option:hover {
+    color: white;
+    width:inherit;
+}
+
+
+.state-selection-button {
+    background-color:#004d1a !important;
+    height:43px !important;
+    border-radius:5px;
+    text-indent:10px;
+    box-shadow:5px 5px 5px #003311;
+    border:1px solid white;
+    width:auto;
+    font-size:18px;
+    color:white;
+    margin-right:50px;
+}
+
+.shipping-state-menu,
+.billing-state-menu {
+    margin-top: 20px;
+    padding:30px;
+    cursor: pointer;
+    background:rgba(255,255,255, .8);
+    display:none;
+    overflow-y:scroll;
+    color:#003311;
+    height:160px;
+    width:180px;
+    font-size:15px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.display-block {
+    display:block;
+}
+
+.display-none,
+.shipping-state-label,
+.billing-state-label {
+    display:none;
+}
+
+#inputZip {
+    width:180px !important;
+}
+
+.same-address-button {
+    width:15px;
+    height:15px;
+    border:1px solid white;
+    border-radius:3px;
+    white-space: nowrap;
+    color:white;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size:18px;
+    margin-left:160px;
+    margin-top:20px;
+}
+
+.same-address-button p {
+    white-space: nowrap;
+    color:white;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size:18px;
+    margin-left:20px;
+    margin-top:-10px;
+}
+
+.same-address-button-selected {
+    background-color:#003311;
+}
+
+.submit-payment-button {
+    border:1px solid white;
+    width:200px;
+    background-color:#339933;
+    font-size:18px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight:bold;
+    white-space: nowrap;
+    color:white;
+    height:43px;
+    border-radius:5px;
+    text-indent:10px;
+    margin-left:330px;
+    margin-top:60px;
+    box-shadow:  5px 5px 5px #003311;
+}
+
+.submit-payment-button:hover {
+    background-color:#267326;
+}
+
+.submit-payment-button:active {
+    background-color:#004d01;
+}
+
+
+
+/* Mobile -------------- */
+@media(min-width:1801px) {
+    #paymentForm {
+        width:100%;
+        margin-top:-350px;
+    }
+
+    .payment-page-title {
+        left:300px;
+    }
+}
+
+@media(max-width:1800px) {
+    .payment-page-title {
+        position:static;
+        margin-top:50px;
+    }
+    #paymentForm {
+        float: none;
+        margin-top:80px;
+        width:100%;
+        margin-left:0px;
+    }
+
+    .payment-section,
+    .same-address-button {
+        margin-left:0px;
+    }
+
+    .submit-payment-button {
+        margin-left:350px;
+    }
+
+}
+
+
+@media(max-width:1000px) {
+    .payment-page-title {
+        font-size:50px;
+    }
+    .payment-section {
+        margin-left:-25px;
+        flex-direction:column !important;
+    }
+    #inputAddress,
+    #inputAddress2 {
+        width:400px !important;
+    }
+    .submit-payment-button {
+        margin-left:80px;
+    }
+
+    .state_container {
+        display: block;
+        margin-top:110px;
+        margin-left: -390px;
+        margin-bottom:10px;
+    }
+
+    .city-country-state-container {
+        flex-direction: column !important;
+    }
+
+    #inputCity,
+    #inputZip {
+        width:130px !important;
+    }
+}
+
+@media(max-width:499px) {
+    .payment-page-title {
+        font-size:125px;
+        margin-left:180px;
+        margin-top:100px;
+        white-space: nowrap;
+    }
+
+    #paymentForm {
+        transform:scale(3.3);
+        width:420px;
+        margin-left:490px;
+        margin-top:3400px;
+    }
+
+    #fullName {
+        width:280px !important;
+    }
+
+    .fa-credit-card {
+        margin-left:-340px;
+    }
+
+    #cardNumber {
+        text-indent:50px;
+        width:280px !important;
+    }
+
+    #inputAddress,
+    #inputAddress2 {
+        width:280px !important;
+    }
+
+    .shipping-country-button,
+    .billing-country-button {
+        width:auto;
+    }
+
+    .shipping-country-menu,
+    .billing-country-menu {
+        height:160px;
+        width:160px;
+    }
+
+    footer {
+        margin-top:2750px;
+    }
+}

@@ -1,0 +1,253 @@
+/* Payment Information Settings */
+
+.payment-info-container {
+    margin-top:40px;
+    color:#1b501b;
+}
+
+.payment-categories {
+    font-size:25px;
+    color:#1b501b;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.payment-info-container p {
+    font-size:16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.last-four {
+    font-size:16px;
+    font-weight:bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.card-type {
+    font-size:18px;
+    font-style:italic;
+    margin-left:10px;
+    background:#1b501b;   
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+    padding:5px;
+    width:auto;
+    white-space: nowrap;
+}
+
+.expiration {
+    font-family:'Times New Roman', Times, serif;
+    font-size:18px;
+    font-weight: bold;
+}
+
+.billing-address {
+    font-size:20px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.edit-payment-info {
+    font-family:'Times New Roman', Times, serif;
+    background:white;
+    width:42px;
+    padding:0px 5px;
+    border: 1px solid #1b501b;
+    box-shadow: 3px 3px 3px #1b501b;
+    cursor: pointer;
+    margin-top:20px;
+}
+
+.edit-payment-info:hover {
+    background-color:rgb(177, 219, 184);
+}
+
+.edit-payment-info:active {
+    background-color:rgb(128, 161, 133);
+    color:white;
+}
+
+
+/* Edit Payment Form ------------------ */
+.payment-edit-container {
+    background:white;
+    border:2px solid #1b501b;
+    box-shadow: inset 3px 3px 45px 5px #1b501b;
+    width:750px;
+    top:150px;
+    left:550px;
+    position:absolute;
+}
+
+.close-edit-payment-window {
+    color:#1b501b;
+    float:right;
+    margin-top:30px;
+    margin-right:40px;
+    cursor:pointer;
+}
+
+.edit-payment-label {
+    color:#1b501b;
+    margin-left:160px;
+    font-size:20px;
+    font-family:'Times New Roman', Times, serif;
+    margin-top:50px;
+}
+
+#cardIcon {
+    margin-left:-390px;
+    margin-top:7px;
+}
+
+.edit-payment-input,
+.secondAddressInput {
+    border:1px solid #1b501b;
+    box-shadow: 3px 3px 3px #1b501b;
+    font-size:18px;
+    height:35px;
+    text-indent:5px;
+    width:400px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+#editCardNumber {
+    text-indent: 40px;
+}
+
+#editCvc {
+    margin-left:50px;
+}
+
+#address2Label {
+    margin-top:30px;
+}
+
+#editZipCode {
+    margin-left:0px;
+}
+
+.save-payment-info {
+    font-family:'Times New Roman', Times, serif;
+    background:white;
+    width:100px;
+    font-size: 25px;
+    padding:0px 5px;
+    color: #1b501b;
+    border: 1px solid #1b501b;
+    box-shadow: inset 3px 3px 15px 5px #1b501b;
+    cursor: pointer;
+    margin-left:300px;
+    margin-top:50px;
+    margin-bottom:80px;
+}
+
+.save-payment-info:hover {
+    background-color:rgb(177, 219, 184);
+}
+
+.save-payment-info:active {
+    background-color:rgb(128, 161, 133);
+    color:white;
+}
+
+.successful-payment-update {
+    color: #123b12;
+    font-size:22px;
+    height:60px;
+    text-align: center;
+    margin-left:100px;
+    background:white;
+    white-space:nowrap;
+    padding:15px;
+    width:500px;
+    margin-top:40px;
+    border-radius:10px;
+    box-shadow: 5px 5px 5px #123b12;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+/* Mobile Design ---------------- */
+
+@media(min-width:1321px) {
+    .payment-edit-container {
+        margin-left:200px;
+    }
+}
+
+@media(max-width:1320px) {
+    .payment-edit-container {
+        width:700px;
+        position:static;
+    }
+}
+
+@media(max-width: 890px) {
+    .payment-information-title {
+        margin-left:65px !important;
+    }
+
+    .payment-edit-container {
+        width:510px;
+        margin-top:50px;
+    }
+
+    .edit-payment-label {
+        margin-left:30px;
+    }
+
+    .save-payment-info {
+        margin-left:210px;
+    }
+
+}
+
+@media(max-width: 650px) {
+    .payment-information-title {
+        margin-left:15px !important;
+    }
+
+    .payment-edit-container {
+        width:420px;
+        margin-top:50px;
+    }
+
+    .edit-payment-label {
+        margin-left:30px;
+    }
+
+    #cardIcon {
+        margin-left: -310px;
+        margin-top:8px;
+    }
+
+    #paymentCvcDefinition {
+        width:180px;
+    }
+
+    .edit-payment-input,
+    .secondAddressInput {
+        width:320px;
+    }
+
+    .save-payment-info {
+        margin-left:150px;
+    }
+}
+
+@media(max-width:499px) {
+    #paymentSettingsContainer {
+        margin-top:1400px;
+    }
+
+    .payment-edit-container {
+        margin-bottom:30px;
+    }
+
+    .successful-payment-update {
+        margin-left:20px;
+        width:370px;
+        height:auto;
+        white-space: normal;
+    }
+}

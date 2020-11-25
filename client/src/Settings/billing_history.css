@@ -1,0 +1,125 @@
+/* Billing History Settins */
+.invoice-categories {
+    margin-top:50px;
+    margin-left:150px;
+    font-size:18px;
+    color:#1b501b;
+    font-weight:bold;
+    white-space: nowrap;
+    text-decoration: underline;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.invoice-categories p {
+    margin-right:80px;
+}
+
+.invoice-values {
+    margin-left:130px;
+    white-space:nowrap;
+    font-size:16px;
+    color:#1b501b;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.invoice-values p {
+    margin-right:80px;
+    margin-top:20px;
+}
+
+.invoice-subscription {
+    font-weight:bold;
+    color:#1b501b;
+    margin-left:20px;
+    font-size:20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.invoice-amount {
+    margin-left:-30px;
+}
+
+.invoice-status {
+    margin-left:25px;
+}
+
+.invoice-date {
+    margin-left:25px;
+} 
+
+
+/* Mobile --------------- */
+
+@media(max-width:890px) {
+    .billing-history-settings-title {
+        white-space: nowrap;
+        margin-left:130px !important;
+    }
+
+    .invoice-categories {
+        margin-left:10px;
+    }
+   
+    .invoice-categories p {
+        margin-right:80px;
+    }
+
+    .invoice-values {
+        margin-left:0px;
+        margin-right:50px;
+    }
+
+    .invoice-values p {
+        margin-right:80px;
+    }
+    
+    .invoice-subscription {
+        margin-left:0px;
+    }
+    
+    .invoice-status {
+        margin-left:10px;
+    }
+    
+    .invoice-date {
+        margin-left:-10px;
+    } 
+    
+}
+
+@media(max-width:650px) {
+    .billing-history-settings-title {
+        white-space: nowrap;
+        margin-left:80px !important;
+    }
+
+    .invoice-categories {
+        margin-left:0px;
+    }
+   
+    .invoice-categories p {
+        margin-right:50px;
+    }
+
+    .invoice-values {
+        margin-left:0px;
+        margin-right:50px;
+    }
+
+    .invoice-values p {
+        margin-right:50px;
+    }
+    
+    .invoice-subscription {
+        margin-left:0px;
+    }
+    
+    .invoice-status {
+        margin-left:10px;
+    }
+    
+    .invoice-date {
+        margin-left:-10px;
+    } 
+    
+}

@@ -1,0 +1,102 @@
+/* Subscription Selection */
+
+.subscription-details-container {
+    width:800px;
+    height:250px;
+    box-shadow: 5px 5px 5px gray;
+    background:rgba(211, 211, 211, .1);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:rgb(31, 96, 31);
+    border-radius:5px;
+    margin-top:145px;
+    margin-left:50px;
+}
+
+
+.example-of-product {
+    width:200px;
+    height:200px;
+    margin-top:25px;
+    margin-left:30px;
+}
+
+.category {
+    font-weight:bold;
+    font-size:35px;
+    margin-left:-50px;
+}
+
+.category, .price {
+    margin-top:30px;
+}
+
+.sub-frequency {
+    font-size:20px;
+}
+
+.change-frequency {
+    text-decoration: underline;
+}
+
+.price {
+    font-size:22px;
+    white-space: nowrap;
+    margin-left:30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.delete-selection {
+    font-size:16px;
+    cursor:pointer;
+    width:50px;
+    margin-left:100px;
+    text-decoration:underline;
+    font-family:  Georgia, 'Times New Roman', Times, serif;
+}
+
+
+/* Mobile -------------- */
+
+@media(min-width:2200px) {
+    .subscription-details-container {
+        margin-left:250px;
+    }
+}
+
+@media(min-width:801px) and (max-width:1461px) {
+    .category {
+        margin-left:30px;
+    }
+}
+
+@media(max-width:800px) {
+    .subscription-details-container {
+        height:auto;
+        width:80%;
+        margin-top:40px;
+    }
+
+    .details {
+        flex-direction: column !important;
+        margin-left:70px;
+    }
+
+    .example-of-product {
+        width:170px;
+        height:170px;
+    }  
+}
+
+@media(max-width:499px) {
+    .subscription-details-container {
+        transform:scale(3);
+        width:340px;
+        margin-left:570px;
+        margin-top:800px;
+    }
+
+    .example-of-product {
+        margin-left:-30px;
+    }
+    
+}

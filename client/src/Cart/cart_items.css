@@ -1,0 +1,88 @@
+/* Cart Selection Items */
+
+.cart-items-title {
+    font-size:40px;
+    color:rgb(31, 96, 31);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top:70px;
+    margin-left:60px;
+    margin-bottom:-110px;
+}
+
+/* Payment Summary */
+
+.payment-summary-container {
+    float:right;
+    margin-right:15%;
+    height:auto;
+    margin-top:160px;
+    color:rgb(31, 96, 31);
+    width:400px;
+    padding:20px;
+    font-family:  Georgia, 'Times New Roman', Times, serif;
+    background:#d9d9d9;
+    border-radius:10px;
+    text-align:center;
+}
+
+.total {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.checkout-button {
+    margin-top:50px;
+    border:none;
+    padding:10px;
+    background-color: rgb(31, 96, 31);
+    font-size:18px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    white-space: nowrap;
+    color:white;
+    border-radius:3px;
+}
+
+
+.checkout-button:hover {
+    background-color:#267326;
+}
+
+.checkout-button:active {
+    background-color:#004d01;
+}
+
+
+/* Mobile --------------- */
+
+@media(min-width:1800px) {
+    .cart-items-title {
+        margin-left:310px;
+    }
+}
+
+@media(min-width:801px) and (max-width:1542px) {
+    .payment-summary-container {
+        margin-top:440px;
+    }
+}
+
+@media(max-width:800px) {
+    .payment-summary-container {
+        float: none;
+        margin-left: 40px;
+        margin-top: 160px;
+    }
+}
+
+@media(max-width: 499px) {
+    .cart-items-title {
+        margin-left:330px;
+        font-size:100px;
+        white-space: nowrap;
+    }
+
+    .payment-summary-container {
+        transform: scale(1.9);
+        margin-left: 400px;
+        margin-top: 300px;
+    }
+}

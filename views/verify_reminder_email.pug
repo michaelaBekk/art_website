@@ -1,0 +1,14 @@
+doctype html
+html
+    head
+        title Arts and Crafts | Verification Reminder
+    body
+        h1(style="color:#29a329; font-size:45px; font-family:'Times New Roman';")  Arts and Crafts
+        p(style="color:black; font-size:22px; font-family:'Times New Roman';") Hi #{first_name},
+        p(style="color:black; font-size:18px; font-family:'Times New Roman';") We are sending you this email to warn you that your verification period of <strong>two weeks</strong> is expiring on #{date}.</p>
+        p(style="color:black; font-size:18px; font-family:'Times New Roman';") If you wish to keep your account, please 
+            a(style="color:#29a329; font-size:18px; font-family:'Times New Roman';" href="https://art-crafts-site.herokuapp.com/verified_successfully/" + id, target='_blank') verify your email.
+        p(style="color:black; font-size:18px; font-family:'Times New Roman';") Failing to verify by the end of your verification period will result in <strong>permanent deletion</strong> of your Arts and Crafts account.
+        footer
+            p(style="color:black; font-size:14px; font-family:'Times New Roman';") This email was sent from a no-reply email address.<strong>Please do not respond.</strong>
+            p(style="color:black; font-size:14px; font-family:'Times New Roman';") If you have any questions or concerns regarding your account or any purchases, please email <a style="color:#29a329;" href="mailto:artsandcraftssuppliesacs@gmail.com">Arts and Crafts Supplies ACS</a> 

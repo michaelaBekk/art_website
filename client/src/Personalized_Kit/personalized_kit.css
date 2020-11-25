@@ -1,0 +1,477 @@
+/* Personalized Kit */
+
+/* Questionaire */
+
+.instructions {
+    font-size:35px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top:100px;
+    color:#155115;
+    white-space: nowrap;
+}
+
+#formBackground {
+    background:#aeeaae;
+    padding-bottom:50px;
+    margin-top:50px;
+    border:8px dashed #1a651a;
+    box-shadow: 7px 7px 7px #0a290a;
+}
+
+.from {
+    font-style: italic;
+    font-family:cursive;
+    color:#155115;
+    font-size:22px;
+    margin-left:20px;
+    margin-top:30px;
+}
+
+
+.post-stamp {
+    width:100px;
+    height:90px;
+    margin-top:-80px;
+    float:right;
+}
+
+.questions {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:#155115;
+    font-size:25px;
+}
+
+#first-question {
+    margin-bottom:60px;
+    margin-top:20px;
+    margin-left:190px;
+}
+
+.select-type-btn {
+   background:linear-gradient(#155115,#1a651a, #1f7a1f,#258e25);
+   border:2px solid #155115;
+   color:white;
+   font-weight:bold;
+   font-family: Arial, Helvetica, sans-serif;
+   border-radius:5px;
+   font-size:20px;
+   white-space: nowrap;
+   padding-left:30px;
+   padding-bottom:10px;
+   height:70px;
+   width:240px;
+   margin-left:320px;
+}
+
+.choose {
+    margin:auto;
+}
+
+.btn-arrow{
+    margin-left:10px;
+}
+
+.dropdown,
+.additional-fiber-options,
+.additional-paper-options,
+.additional-painting-options {
+    background:linear-gradient(#1f7a1f,#258e25,#155115,#1a651a);
+    color:white;
+    border:none;
+    color:white;
+    display:none;
+    margin-top:30px;
+    margin-left:190px;
+    font-size:20px;
+    padding:30px 50px;
+    border-radius:5px;
+    cursor: pointer;
+    line-height: 40px;
+    width:520px !important;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.additional-fiber-options,
+.additional-paper-options,
+.additional-painting-options{
+    background:none;
+    width:280px !important;
+    margin-top:0px;
+    margin-left:0px;
+    font-style: italic;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.show-dropdown {
+    display:block;
+}
+
+option:hover {
+    background:#1a651a;
+    padding-left:20px;
+    border-radius:30px
+}
+
+
+/* Baking Option -------------------*/
+
+#second-question {
+    margin-top:50px;
+    margin-left:160px;
+}
+
+input[type="checkbox"] {
+    display:none;
+}
+
+.dietary-restrictions-container {
+    margin-left:140px;
+    display:none;
+    margin-top:30px;
+    width:670px;
+}
+
+#dietaryLabels {
+    font-size:17px;
+    font-style: italic;
+    color:white;
+    padding:8px 15px;
+    width:auto;
+    height:40px;
+    background-color:#258e25;
+    border:2px solid #1a651a;
+    box-shadow: inset 5px 5px 5px #155115;
+    border-radius:15px;
+    margin-right:20px;
+    margin-top:20px;
+    cursor:pointer;
+}
+
+.selected {
+    background-color: #155115 !important;
+    box-shadow: 2px 2px 2px #0a290a !important;
+}
+
+.additional-dietary-restrictions {
+    display:none;
+    margin-top:60px;
+    margin-left:320px;
+}
+
+.additional-dietary-restrictions label {
+    margin-left:18px;
+}
+
+.text {
+    border:2px solid #1a651a !important;
+    width:280px;
+    background-color: white !important;
+    box-shadow:5px 5px 5px #155115 !important;
+}
+
+.additional-dietary-restrictions label {
+    font-size:17px !important;
+}
+
+
+
+/* Candlemaking Option ----------------- */
+
+.candle-allergies {
+    display:none;
+    width:320px;
+    resize: inherit;
+    margin-top:25px;
+    margin-left:310px;
+}
+
+#exampleFormControlTextarea1 {
+    background-color: white !important;
+}
+
+
+/* Subscription Information */
+
+.subscription-container {
+    display:none;
+}
+
+#third-question {
+    margin-left:210px;
+    margin-top:50px;
+}
+
+.subscription-options {
+    margin-left:-80px;
+    margin-top:40px;
+}
+
+.radio {
+    margin-left:70px;
+    margin-right:20px;
+    transform:scale(1.2);
+}
+
+.frequency-label {
+    font-size:18px;
+    color:#155115;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.submit {
+    color:white;
+    border:none;
+    box-shadow: 5px 5px 5px #155115;
+    padding:15px 20px;
+    border-radius:50px;
+    margin-left:360px;
+    margin-top:80px;
+    font-weight:bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:18px;
+    background-color: #258e25;
+    display:none;
+}
+
+.submit:hover {
+    background:#155115;
+}
+.submit:active {
+    background-color: #1a651a;
+}
+
+
+/* Mobile ------------- */
+
+@media(min-width:801px) and (max-width:1000px) {
+    .instructions {
+        margin-left:100px;
+        font-size:30px;
+        white-space: normal;
+        width:650px !important;
+    }
+  
+    #first-question {
+       white-space: nowrap;
+       margin-left:80px;
+    }
+    
+    .select-type-btn {
+       margin-left:220px;
+    }
+
+    .dropdown,
+    .additional-fiber-options,
+    .additional-paper-options,
+    .additional-painting-options {
+        margin-left:110px;
+        width:450px !important;
+    }
+    .additional-fiber-options,
+    .additional-paper-options,
+    .additional-painting-options{
+        margin-left:-20px;
+    }
+
+    #second-question {
+        margin-left:50px;
+    }
+    
+    .dietary-restrictions-container {
+        margin-left:60px;
+    }
+    
+    .additional-dietary-restrictions {
+        margin-left:220px;
+    }
+
+    .candle-allergies {
+        margin-left:220px;
+    }
+
+    #third-question {
+        margin-left:100px;
+    }
+
+    .subscription-options {
+        margin-left:-30px;
+    }
+
+    .radio {
+        margin-left:30px;
+    }
+    
+    .submit {
+        margin-left:130px;
+    }
+    
+}
+
+@media(max-width:800px) {
+    .instructions {
+        margin-left:100px;
+        font-size:25px;
+        width:450px !important;
+        white-space: normal;
+    }
+    #formBackground {
+        width:450px !important;
+    }
+    #first-question {
+        width:450px;
+        margin-left:10px;
+    }
+    
+    .select-type-btn {
+       margin-left:80px;
+    }
+
+    .dropdown,
+    .additional-fiber-options,
+    .additional-paper-options,
+    .additional-painting-options {
+        margin-left:80px;
+        width:250px !important;
+    }
+    .additional-fiber-options,
+    .additional-paper-options,
+    .additional-painting-options{
+        margin-left:-30px;
+    }
+
+    #second-question {
+        margin-left:20px;
+    }
+    
+    .dietary-restrictions-container {
+        margin-left:60px;
+    }
+    
+    .additional-dietary-restrictions {
+        margin-left:80px;
+    }
+
+    .candle-allergies {
+        margin-left:80px;
+    }
+
+    #third-question {
+        margin-left:20px;
+    }
+
+    .subscription-options {
+        margin-left:-30px;
+    }
+
+    .radio {
+        margin-left:30px;
+    }
+    
+    .submit {
+        margin-left:130px;
+    }
+     
+}
+
+@media(min-width:500px) and (max-width:799px) {
+    .instructions {
+        width:500px !important;
+        margin-left:0px;
+    }
+}
+
+@media(max-width:499px) {
+    .instructions {
+        font-size:70px;
+        width:900px !important;
+        margin-left:300px;
+    }
+
+    #formBackground {
+       width:950px !important;
+       margin-left:280px !important;
+       margin-top:180px;
+    }
+
+    .from {
+        font-size:35px;
+    }
+    
+    .post-stamp {
+        width:150px;
+        height:120px;
+        margin-top:-80px;
+        float:right;
+    }
+
+    .questions {
+        white-space: normal;
+        font-size:40px;
+        width:800px !important;
+        margin-left:100px !important;
+        margin-top:80px !important;
+    }
+
+    .select-type-btn {
+       transform:scale(1.7);
+       margin-left:330px;
+    }
+
+    .dropdown,
+    .additional-fiber-options,
+    .additional-paper-options,
+    .additional-painting-options {
+        margin-left:130px;
+        margin-top:100px !important;
+        width:650px !important;
+        font-size:30px;
+    }
+    .additional-fiber-options,
+    .additional-paper-options,
+    .additional-painting-options{
+        margin-left:-30px;
+    }
+
+    #second-question {
+        width:750px !important;
+        margin-left:80px;
+        font-size:40px;
+    }
+
+    .dietary-restrictions-container {
+        transform:scale(1.5);
+        margin-left:230px;
+        width:500px;
+    }
+
+    .additional-dietary-restrictions label {
+        font-size:25px !important;
+        margin-left: -20px !important;
+    }
+
+    .additional-dietary-restrictions {
+        margin-left:400px;
+        transform:scale(1.5);
+    }
+
+    .candle-allergies {
+        margin-left:330px;
+        transform:scale(1.5);
+    }
+
+    #third-question {
+        margin-left:100px !important;
+        margin-top:100px !important;
+    }
+
+    .subscription-options {
+        transform:scale(1.9);
+        margin-left:-100px;
+    }
+
+    .submit {
+        margin-left:380px;
+        transform:scale(1.5);
+    }
+
+}

@@ -1,0 +1,64 @@
+/* footer */
+
+footer {
+    width:100% !important;
+    height:100%;
+    font-size:16px;
+    color:white;
+    margin-top:100%;
+    flex-wrap: nowrap;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background:linear-gradient(#155115,#1a651a, #1f7a1f,#258e25);
+}
+
+.contact-container {
+    margin-left:100px;
+}
+
+.contact {
+    font-size:22px;
+    margin-top:40px;
+}
+
+
+/* Mobile Desgin */
+@media (min-width:500px) and (max-width: 800px) {
+    .legal-terms {
+        justify-content: start;
+        flex-direction: column !important;
+        margin-left:100px;
+    }
+
+    footer {
+        width:350% !important;
+    }
+    
+}
+
+@media(min-width:801px) {
+    .terms,
+    .privacy-cookies,
+    .copyright {
+        margin-right:50px;
+    }
+}
+
+@media(max-width:499px) {
+    footer {
+        width:480% !important;
+        height:400px;
+        margin-top:650px;
+        font-size:40px;
+    }
+
+    .contact {
+        font-size:60px;
+    }
+
+    .terms,
+    .privacy-cookies,
+    .copyright {
+        margin-right:80px;
+        margin-top:30px;
+    }
+}

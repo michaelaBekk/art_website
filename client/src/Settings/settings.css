@@ -1,0 +1,141 @@
+/* Settings */
+
+.no-data {
+    margin-left:260px;
+    margin-top:50px;
+    font-size: 20px;
+    color:#133a13;
+    white-space: nowrap;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* nav menu */
+.settings-navbar {
+    float:right;
+    background:#c5ecc5;
+    padding:40px;
+    margin-left:200px;
+    margin-top:-190px;
+    box-shadow: 5px 5px 5px #133a13;
+}
+
+.settings-navbar p {
+    background:#1f601f;
+    padding:10px 25px;
+    border-radius:20px;
+    width:220px;
+    font-size:17px;
+    margin-top:10px;
+    white-space: nowrap;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:bold;
+    color:white;
+    cursor:pointer;
+}
+
+.settings-navbar p:hover,
+.save-changes-button:hover {
+    background: #247524;
+}
+
+.settings-navbar p:active,
+.save-changes-button:active {
+    background: #309c30;
+}
+
+
+.display-settings-container {
+    width:750px;
+    height:auto;
+    background:#c5ecc5;
+    border-radius:10px;
+    padding:5px 20px;
+    margin-top:100px;
+    margin-bottom:-50px;
+}
+
+.settings-title {
+    color:#1f601f;
+    margin-top:50px;
+    font-size:40px;
+    margin-left:270px;
+    font-style:italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+/* Disclaimer */
+.disclaimer-title {
+    color:#1f601f;
+    font-size:40px;
+    margin-top:20px;
+    height:auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.disclaimer-title p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+/* Mobile ------------- */
+
+@media(max-width:1250px) {
+    .settings-navbar {
+        float:none;
+        margin-top:120px;
+        width:300px;
+        margin-left:100px;
+    }
+}
+
+@media(max-width:890px) {
+    .no-data {
+        margin-left:160px;
+    }
+
+    .display-settings-container {
+        width:550px;
+    }
+
+    .settings-title {
+        margin-left:180px;
+    }
+    
+}
+
+@media(max-width:650px) {
+    .no-data {
+        margin-left:110px;
+    }
+    .display-settings-container {
+        width:455px;
+        height:auto;
+        margin-top:100px;
+        margin-bottom:-50px;
+    }
+    .settings-title {
+        margin-left:140px;
+    }
+    
+}
+
+@media(max-width:499px) {
+    .display-settings-container {
+        transform:scale(2.2);
+        margin-left:500px;
+        margin-top:300px;
+    }
+
+    .settings-navbar {
+        margin-top:580px;
+        transform: scale(2);
+        margin-left:560px;
+        margin-bottom:800px;
+    }
+    
+    #shippingSettingsContainer {
+        margin-top:1000px;
+    }
+
+}

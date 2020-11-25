@@ -1,0 +1,284 @@
+[
+    {
+        "category": "Baking",
+        "img": "../images/baking.jpg",
+        "price": "30.00"
+    },
+
+    {
+        "category": "Candlemaking",
+        "img": "../images/candlemaking.jpg",
+        "price": "35.00"
+    },
+
+    {
+        "category": "Drawing",
+        "img": "../images/drawing.jpg",
+        "price": "35.00"
+    },
+
+    {
+        "category": "Fashion",
+        "img": "../images/fashion.jpg",
+        "price": "50.00"
+    },
+
+    {
+        "category": "Applique",
+        "img": "../images/applique.jpg",
+        "price": "30.00"
+    },
+
+    {
+        "category": "Crochet",
+        "img": "../images/crochet.jpg",
+        "price": "25.00"
+    },
+    
+    {
+        "category": "Embroidery",
+        "img": "../images/embroidery-kit.jpg",
+        "price": "25.00"
+    },
+
+    {
+        "category": "Felting",
+        "img": "../images/felting.jpg",
+        "price": "25.00"
+    },
+
+    {
+        "category": "Knitting",
+        "img": "../images/knitting.jpg",
+        "price": "25.00"
+    },
+
+    {
+        "category": "Lace Making",
+        "img": "../images/lace-making.jpg",
+        "price": "25.00"
+    },
+
+    {
+        "category": "Macrame",
+        "img": "../images/macrame.png",
+        "price": "25.00"
+    },
+
+    {
+        "category": "Rope Making",
+        "img": "../images/rope-making.jpg",
+        "price": "25.00"
+    },
+
+    {
+        "category": "Rug Making",
+        "img": "../images/rug-making.jpg",
+        "price": "25.00"
+    },
+
+    {
+        "category": "Sewing",
+        "img": "../images/sewing.jpg",
+        "price": "25.00"
+    },
+
+    {
+        "category": "Spinning",
+        "img": "../images/spinning.jpg",
+        "price": "25.00"
+    },
+
+    {
+        "category": "Stitch",
+        "img": "../images/stitch.jpg",
+        "price": "25.00"
+    },
+
+    {
+        "category": "Tatting",
+        "img": "../images/tatting.jpg",
+        "price": "25.00"
+    },
+
+    {
+        "category": "Weaving",
+        "img": "../images/weaving.jpg",
+        "price": "25.00"
+    },
+
+    {
+        "category": "Floral",
+        "img": "../images/floral.jpg",
+        "price": "30.00"
+    },
+
+    {
+        "category": "Gardening",
+        "img": "../images/gardening.jpg",
+        "price": "45.00"
+    },
+
+    {
+        "category": "Graffiti",
+        "img": "../images/graffiti.jpg",
+        "price": "30.00"
+    },
+
+    {
+        "category": "Jewelery",
+        "img": "../images/jewelery.jpg",
+        "price": "20.00"
+    },
+
+    {
+        "category": "Leatherwork",
+        "img": "../images/leatherwork.jpg",
+        "price": "50.00"
+    },
+
+    {
+        "category": "Metalwork",
+        "img": "../images/metalwork.jpg",
+        "price": "75.00"
+    },
+
+    {
+        "category": "Acrylic",
+        "img": "../images/acrylic.jpg",
+        "price": "35.00"
+    },
+
+    {
+        "category": "Enamel",
+        "img": "../images/enamel.jpeg",
+        "price": "25.00"
+    },
+
+    {
+        "category": "Encaustic",
+        "img": "../images/encaustic.jpg",
+        "price": "65.00"
+    },
+
+    {
+        "category": "Gouache",
+        "img": "../images/gouache.jpg",
+        "price": "35.00"
+    },
+
+    {
+        "category": "Oil",
+        "img": "../images/oil.jpg",
+        "price": "40.00"
+    },
+
+    {
+        "category": "Tempera",
+        "img": "../images/tempera.jpg",
+        "price": "50.00"
+    },
+
+    {
+        "category": "Watercolor",
+        "img": "../images/watercolor.jpg",
+        "price": "30.00"
+    },
+
+    {
+        "category": "Bookbinding",
+        "img": "../images/bookbinding.jpg",
+        "price": "30.00"
+    },
+
+    {
+        "category": "Calligraphy",
+        "img": "../images/calligraphy.jpg",
+        "price": "30.00"
+    },
+
+    {
+        "category": "Decoupage",
+        "img": "../images/decoupage.jpg",
+        "price": "30.00"
+    },
+
+    {
+        "category": "Origami",
+        "img": "../images/origami.jpg",
+        "price": "20.00"
+    },
+
+    {
+        "category": "Papercutting",
+        "img": "../images/papercutting.jpg",
+        "price": "25.00"
+    },
+
+    {
+        "category": "Paper Embossing",
+        "img": "../images/paper-embossing.jpg",
+        "price": "30.00"
+    },
+
+    {
+        "category": "Papermaking",
+        "img": "../images/papermaking.jpg",
+        "price": "45.00"
+    },
+
+    {
+        "category": "Paper Marbling",
+        "img": "../images/marbling.jpg",
+        "price": "35.00"
+    },
+
+    {
+        "category": "Parchment",
+        "img": "../images/parchment.jpg",
+        "price": "30.00"
+    },
+
+    {
+        "category": "Scrapbooking",
+        "img": "../images/scrapbooking.jpeg",
+        "price": "30.00"
+    },
+
+    {
+        "category": "Quilling",
+        "img": "../images/quilling.jpg",
+        "price": "30.00"
+    },
+
+    {
+        "category": "Pottery",
+        "img": "../images/pottery.png",
+        "price": "30.00"
+    },
+
+    {
+        "category": "Print",
+        "img": "../images/print.jpg",
+        "price": "50.00"
+    },
+
+    {
+        "category": "Sculpture",
+        "img": "../images/sculpting.jpg",
+        "price": "30.00"
+    },
+
+    {
+        "category": "Stonecraft",
+        "img": "../images/stonecraft.jpg",
+        "price": "50.00"
+    },
+
+    {
+        "category": "Woodwork",
+        "img": "../images/woodwork.jpg",
+        "price": "50.00"
+    }
+]
+

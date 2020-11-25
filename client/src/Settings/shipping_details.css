@@ -1,0 +1,46 @@
+/* Shipping Details Settings */
+
+.shipping-address {
+    font-size:20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.successful-shipping_address_update {
+    color: #123b12;
+    font-size:22px;
+    height:60px;
+    text-align: center;
+    margin-left:70px;
+    background:white;
+    white-space:nowrap;
+    padding:15px;
+    width:580px;
+    margin-top:40px;
+    border-radius:10px;
+    box-shadow: 5px 5px 5px #123b12;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+/* Mobile Design ------------- */
+
+@media(max-width:890px) {
+    .shipping-details-title {
+        margin-left:100px !important;
+    }
+}
+
+@media(max-width:650px) {
+    .shipping-details-title {
+        margin-left:60px !important;
+    }
+}
+
+@media(max-width:499px) {
+    .successful-shipping_address_update  {
+        margin-left:20px;
+        width:370px;
+        height:auto;
+        white-space: normal;
+    }
+}

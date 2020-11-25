@@ -1,0 +1,226 @@
+/* Log In + Sign Up Page */
+
+body {
+    background: linear-gradient(#29a329,#00cc44,#5cd65c,#adebad,white);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.page-title {
+    font-size:120px;
+    font-family:fantasy;
+    font-weight: bold;
+    white-space: nowrap;
+    margin-top:100px;
+    text-shadow: 5px 5px 5px black;
+    color:white;
+}
+
+.thread-needle-img {
+    position: absolute;
+    top:270px;
+    left:120px;
+    width:500px;
+    height:600px;
+}
+
+.marketing-message {
+    width:400px !important;
+    left:1380px !important;
+    top:300px !important;
+    position:absolute;
+    color:#004d1a;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.marketing-message p {
+    font-size:20px;
+    margin-top:20px;
+}
+
+
+/* Sign Up Form  +  Log In Form */
+
+.form-container {
+    width:250px;
+    margin-top: 120px;
+}
+
+.sign-up-header, 
+.log-in-header {
+    font-size:25px;
+    font-weight:bold;
+    padding-left:30px;
+    cursor:pointer;
+    color:white;
+    white-space: nowrap;
+    text-decoration:underline;
+    position:absolute;
+    text-shadow: 2px 2px 2px black;
+    margin-left:-30px;
+    height:45px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.log-in-header {
+    margin-left:140px;
+}
+
+.header-background {
+    background-color:#009933;
+    padding:3px 30px;
+    border-radius:30px;
+}
+
+#signupForm,
+#loginForm {
+    margin-top:50px;
+}
+
+.form-control {
+    width:250px !important;
+    height:40px !important;
+    margin-top: 30px !important;
+    background-color:#adebad !important;
+    border:1px solid #009933 !important;
+    box-shadow:5px 5px 5px #009933;
+}
+
+.forgot-password {
+    font-size:13px;
+    margin-left:120px;
+    white-space:nowrap;
+    color:#133a13;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.forgot-password:hover {
+    color:#1f601f;
+}
+
+#signUpBtn, #logInBtn {
+    box-shadow: 4px 4px 4px #1f601f;
+    margin-top:10px;
+    margin-left:70px;
+    font-size:20px;
+    color:white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#logInBtn {
+    margin-top:30px;
+}
+
+/* Sign Up/Log Validation */
+
+.empty-field {
+    color:red;
+    font-size:15px;
+    margin-top:8px !important;
+    white-space:nowrap;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.missing-field {
+    border:1px solid red !important;
+}
+
+.show-password,
+.hide-password {
+    position:relative; 
+    top:-36px;
+    left:218px;
+    color:#009933;
+    height:32px;
+    width:28px;
+    padding:5px;
+    background-color:#5cd65c;
+    border-radius: 5px;
+    cursor:pointer;
+}
+
+.hide-password {
+    display:none;
+}
+
+
+
+/* Mobile ---------------  */
+
+@media(min-width:2051px) {
+    .marketing-message {
+        left:1660px !important;
+    }
+}
+
+@media(min-width:1851px) and (max-width:2050px) {
+    .marketing-message {
+        left:1400px !important;
+    }
+}
+
+@media (min-width: 1660px) and (max-width: 1850px) {
+    .marketing-message {
+        left:1200px !important;
+    }
+}
+
+@media(min-width:1601px) and (max-width:1659px) {
+    .marketing-message {
+        left:1100px !important;
+    }
+}
+
+@media(min-width:300px) and (max-width:1600px) {
+    .page-title {
+        font-size:60px;
+        margin-left: 30px;
+    }
+    .thread-needle-img {
+        display:none;
+    }
+
+    .marketing-message {
+        position:static;
+        margin-top:80px;
+        margin-left: 20px;
+    }
+
+}
+
+@media(min-width:600px) {
+    .page-title {
+        font-size:80px;
+        margin-left: -50px;
+    }
+}
+
+@media(min-width:900px) {
+    .page-title {
+        font-size:100px;
+    }
+}
+
+@media(max-width:499px) {
+    .page-title {
+        font-size:150px;
+        margin-left:100px;
+        width:200px;
+    }
+
+    .marketing-message {
+        transform:scale(2.6);
+        margin-left:550px;
+        margin-top:500px;
+    }
+
+    .form-container {
+        transform:scale(3);
+        margin-top: 900px;
+        margin-left:550px !important;;
+    }
+
+}
+
+

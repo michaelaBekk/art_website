@@ -1,0 +1,61 @@
+{
+  "name": "art-site-frontend",
+  "version": "0.1.0",
+  "private": true,
+  "proxy": "https://localhost:8080",
+  "homepage": "https://art-crafts-site.herokuapp.com/",
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.11.5",
+    "@testing-library/react": "^11.1.1",
+    "@testing-library/user-event": "^12.2.0",
+    "axios": "^0.21.0",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "bootstrap": "^4.5.3",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-redux": "^7.2.2",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "4.0.0",
+    "redux": "^4.0.5",
+    "redux-devtools-extension": "^2.13.8",
+    "stripe": "^8.121.0",
+    "web-vitals": "^0.2.4"
+  },
+  "engines": {
+    "node": "15.1.0",
+    "npm": "7.0.9"
+  },
+  "scripts": {
+    "build": "react-scripts build",
+    "eject": "react-scripts eject",
+    "start": "react-scripts start",
+    "test": "react-scripts test"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "art_node.js",
+  "repository": {
+    "type": "git",
+    "url": "https://git.heroku.com/art-crafts-site.git"
+  },
+  "author": "Michaela Bekkerman",
+  "license": "ISC"
+}

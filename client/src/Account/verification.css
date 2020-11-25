@@ -1,0 +1,61 @@
+/* Verification Page */
+
+.verification-title {
+    margin-top:200px !important;
+    font-size:60px !important;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.thank-you-for-signing-up {
+    font-size:30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.verification-instructions {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:18px;
+}
+
+.log-in-after-verification {
+    color:#1f601f;
+    font-size:20px !important;
+    margin-left:8px;
+}
+.log-in-after-verification:hover {
+    color:#009933;
+}
+
+
+
+/* Verification Reminder Email */
+
+.greeting {
+    font-size:20px;
+    color:black !important;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.warning {
+    font-size:18px;
+    color:black !important;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+/* Mobile */
+
+@media(max-width:600px) {
+    .title,
+    .insutruction {
+       font-size: 40px !important;
+   }
+   .thank-you {
+       font-size:20px;
+   }
+    .status {
+        font-size:80px !important;
+    }
+    .reason {
+        font-size:18px;
+    }
+}

@@ -1,0 +1,304 @@
+/* Account Settings */
+.account-info-container {
+    margin-top:20px;
+}
+
+.account-info {
+    height:60px;
+    border:1px solid #1f601f;
+    padding-top:15px;
+    background-color:white;
+    box-shadow: inset 2px 2px 30px 5px #1f601f;
+    width:700px;
+    margin-left:8px;
+    margin-top:40px;
+    border-radius:10px;
+}
+
+.account-info-label {
+    color:#1f601f;
+    white-space: nowrap;
+    font-size:18px;
+    margin-left:30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.account-info-value,
+#passwordValue {
+    color:#1f601f;
+    font-size:16px;
+    width:auto;
+    font-weight:bold;
+    margin-left:150px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.email-value {
+    margin-left:120px;
+}
+
+.edit-input {
+    margin-left:130px;
+    height:30px;
+    width:200px;
+    border: 1px solid #1f601f;
+    border-radius:5px;
+    text-indent:5px;
+    display: none;
+}
+
+.email-edit-input {
+    margin-left:100px;
+}
+
+
+
+/* Account Settings Buttons------------- */
+.edit-button {
+    background-color:#c5ecc5;
+    color:#123b12;
+    border:2px solid  #184e18;
+    width:70px;
+    padding:2px 0px;
+    height:30px;
+    font-size:17px;
+    box-shadow: inset 2px 4px 12px 5px #1e621e;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left:20px;  
+    margin-bottom:50px;
+    margin-top:120px;
+}
+
+.edit-button:hover {
+    background-color: #76d576;
+}
+
+.edit-button:active {
+    background: white;
+}
+
+.save-changes-button {
+    background-color: #1f601f;
+    color: white;
+    border:none;
+    width:150px;
+    padding:2px 0px;
+    height:40px;
+    font-size:19px;
+    box-shadow: 2px 2px 2px #123b12;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    margin-top:120px;
+    margin-left:20px;  
+    margin-bottom:50px;
+    display:none;
+}
+
+.cancel-button {
+    background-color: #c5ecc5;
+    color: #123b12;
+    border:1px solid #123b12;
+    width:150px;
+    padding:2px 0px;
+    height:40px;
+    font-size:19px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    margin-top:120px;
+    margin-left:20px;  
+    margin-bottom:50px;
+    display:none;
+}
+
+.cancel-button:hover,
+.cancel-password-change-button:hover {
+    background: #d8f3d8;
+}
+
+.cancel-button:active,
+.cancel-password-change-button:active {
+    background:#b1e7b1;
+}
+
+.change-password-button {
+    display:none;
+    background-color: #123b12;
+    color: white;
+    border:1px solid #123b12;
+    width:250px;
+    box-shadow: 2px 2px 2px #123b12;
+    padding:2px 0px;
+    height:40px;
+    font-size:19px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    margin-top:120px;
+    margin-left:20px;  
+    margin-bottom:50px;
+}
+
+.change-password-button:hover,
+.save-new-password:hover {
+    background-color: #184e18;
+}
+
+.change-password-button:active,
+.save-new-password:active {
+    background-color: #1e621e;
+}
+
+
+/* Change Password */
+
+.new-password-container {
+    margin-top:80px;
+}
+
+.new-password-label {
+    color:#123b12;
+    font-size: 23px;
+    margin-left:40px;
+    white-space:nowrap;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.edit-password-input {
+    margin-left:40px;
+    height:40px;
+    width:400px;
+    border: 1px solid #1f601f;
+    box-shadow: 3px 3px 3px #123b12;
+    text-indent:5px;
+}
+
+.change-password-buttons-container {
+    margin-top:110px;
+    margin-left:40px;
+    margin-bottom:30px;
+}
+
+.save-new-password {
+    height:35px; 
+    width:80px;
+    color:white;
+    border:none;
+    box-shadow: 3px 3px 3px #123b12;
+    background: #1f601f;
+    font-size: 22px;
+    font-family: serif;
+    padding:0px 5px;
+}
+
+.cancel-password-change-button {
+    background-color: #c5ecc5;
+    color: #123b12;
+    border:1px solid #123b12;
+    width:100px;
+    padding:2px 0px;
+    height:35px;
+    font-size:19px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    margin-left:30px;
+}
+
+.successful-password-change {
+    color: #123b12;
+    font-size:20px;
+    background:white;
+    padding:10px;
+    width:400px;
+    font-style: italic;
+    margin-top:40px;
+    box-shadow: 3px 3px 3px #123b12;
+    border: 1px solid #123b12;
+    margin-left:150px !important;
+    text-align:center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+
+/* Mobile --------------- */
+
+@media(max-width:890px) {
+    .account-info {
+        width:500px;
+    }
+
+
+    .account-info-value,
+    #passwordValue {
+        margin-left:70px;
+    }
+
+    .email-value {
+        margin-left:40px;
+    }
+
+    .edit-input {
+        margin-left:70px;;
+    }
+    
+    .email-edit-input {
+        margin-left:40px;
+    }
+
+    .save-changes-button {
+        padding:2px 10px;
+        white-space: nowrap;
+    }
+
+    .successful-password-change {
+        margin-left:70px !important;  
+    }
+ 
+}
+
+@media(max-width:650px) {
+    .account-info {
+        width:400px;
+    }
+    
+    .account-info-label {
+        white-space: nowrap;
+        margin-left:30px;
+    }
+
+    .account-info-value,
+    #passwordValue {
+        margin-left:30px;
+    }
+
+    .email-value {
+        margin-left:10px;
+    }
+
+    .edit-input {
+        margin-left:30px;;
+    }
+    
+    .email-edit-input {
+        margin-left:10px;
+    }
+
+    .save-changes-button,
+    .change-password-button {
+        width:auto;
+        white-space: nowrap;
+        padding:2px 10px;
+        margin-left:0px;
+        margin-right:20px;
+    }
+
+    .cancel-button {
+        margin-left:-5px;
+        padding:8px;
+    }
+
+    .successful-password-change {
+        margin-left:0px !important;  
+    }
+    
+}

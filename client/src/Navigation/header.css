@@ -1,0 +1,155 @@
+/* Main Page Navbar */
+
+/* nav bar */
+.navbar {
+    background:linear-gradient(#155115,#1a651a, #1f7a1f,#258e25);
+    width:100%;
+    height:60px;
+    margin-top:-3px;
+}
+
+/* nav bar options (first half) */
+.navbar-options {
+    width:auto;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding:20px;
+    font-size:20px;
+    white-space: nowrap;
+    color:white;
+    text-align: center;
+    font-weight:bold;
+    cursor:pointer;
+    height:60px;
+    margin-top:-10px;
+    margin-right:80px;
+}
+
+#user {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: normal;  
+}
+
+#user:hover {
+    background:none;
+    cursor:default;
+}
+
+#user:active {
+    background:none;
+    color:white;
+}
+
+.navbar-options:hover {
+    text-decoration:none !important;
+    color:white;
+    height:61px;
+    background:linear-gradient(#1a651a,#1f7a1f);
+}
+
+.navbar-options:active {
+   color:#b6c8b6;
+   background:linear-gradient(#155115,#1a651a);
+}
+
+
+/* nav bar options (second half) */
+
+.navbar-label {
+    color:white;
+    font-size:18px;
+    margin-right:50px;
+    cursor:pointer;
+    margin-top:0px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    white-space: nowrap;
+}
+
+.navbar-icon {
+    transform:scale(1);
+}
+
+.cart-contains-items {
+    margin-left:10px; 
+    background:white;
+    border-radius: 50%;
+    padding:0px 7px;
+    color:#155115;
+    font-size:18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.navbar-label:hover {
+    color: #b6c8b6;
+    text-decoration:none !important;
+}
+
+.navbar-label:active {
+    color:rgb(130, 161, 130);
+}
+
+
+/* Mobile --------------- */
+
+@media(min-width:801px) and (max-width:1340px) {
+    .navbar {
+        height:100%;
+    }
+}
+
+@media(min-width: 500px) and (max-width: 800px) {
+    .navbar {
+        height:100%;
+    }
+
+    .navbar-options {
+        font-size:20px;
+    }
+
+    .line-1 {
+        flex-direction:column;
+    }
+    .line-2 {
+        justify-content: center !important;
+    }
+   
+}
+
+@media(max-width:499px) {
+    .navbar {
+        height:auto;
+        width:480%;
+    }
+
+    .navbar-options {
+        font-size:50px;
+        margin-top:20px;
+        height:120px;
+        flex-direction:column;
+        margin-right:680px;
+    }
+
+    .line-1 {
+        flex-direction:column;
+        margin-top:40px;
+    }
+
+    .line-2 {
+        margin-top: 50px;
+        margin-right:280px;
+    }
+
+    .navbar-icon {
+        transform:scale(3);
+        margin-right:40px;
+    }
+
+    .navbar-label {
+        font-size:50px;
+        margin-right:200px;
+    }
+
+    .cart-contains-items {
+        padding:0px 15px;
+        font-size:50px;
+    }
+}
